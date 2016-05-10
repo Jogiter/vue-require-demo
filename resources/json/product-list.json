@@ -1,0 +1,87 @@
+{
+    "data": {
+        "lists": [{
+            "name": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaasdsdddddddddddddddddddddd",
+            "price": 1234,
+            "amount": 2222,
+            "realAmount": 333,
+            "sales": 444.444,
+            "time": "2015-11-17 13:20:25",
+            "img": "https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo_top_ca79a146.png"
+        }, {
+            "name": "abc",
+            "price": 1234,
+            "amount": 2222,
+            "realAmount": 333,
+            "sales": 444.444,
+            "time": "2015-11-17 13:20:25",
+            "img": "https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo_top_ca79a146.png"
+        }, {
+            "name": "abc",
+            "price": 1234,
+            "amount": 2222,
+            "realAmount": 333,
+            "sales": 444.444,
+            "time": "2015-11-17 13:20:25",
+            "img": "https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo_top_ca79a146.png"
+        }, {
+            "name": "abc",
+            "price": 1234,
+            "amount": 2222,
+            "realAmount": 333,
+            "sales": 444.444,
+            "time": "2015-11-17 13:20:25",
+            "img": "https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo_top_ca79a146.png"
+        }, {
+            "name": "abc",
+            "price": 1234,
+            "amount": 2222,
+            "realAmount": 333,
+            "sales": 444.444,
+            "time": "2015-11-17 13:20:25",
+            "img": "https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo_top_ca79a146.png"
+        }, {
+            "name": "abc",
+            "price": 1234,
+            "amount": 2222,
+            "realAmount": 333,
+            "sales": 444.444,
+            "time": "2015-11-17 13:20:25",
+            "img": "https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo_top_ca79a146.png"
+        }, {
+            "name": "abc",
+            "price": 1234,
+            "amount": 2222,
+            "realAmount": 333,
+            "sales": 444.444,
+            "time": "2015-11-17 13:20:25",
+            "img": "https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo_top_ca79a146.png"
+        }, {
+            "name": "abc",
+            "price": 1234,
+            "amount": 2222,
+            "realAmount": 333,
+            "sales": 444.444,
+            "time": "2015-11-17 13:20:25",
+            "img": "https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo_top_ca79a146.png"
+        }, {
+            "name": "abc",
+            "price": 1234,
+            "amount": 2222,
+            "realAmount": 333,
+            "sales": 444.444,
+            "time": "2015-11-17 13:20:25",
+            "img": "https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo_top_ca79a146.png"
+        }, {
+            "name": "abc",
+            "price": 1234,
+            "amount": 2222,
+            "realAmount": 333,
+            "sales": 444.444,
+            "time": "2015-11-17 13:20:25",
+            "img": "https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo_top_ca79a146.png"
+        }]
+    },
+    "reCode": 1,
+    "msg": ""
+}

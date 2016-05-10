@@ -1,23 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Page product</title>
 </head>
-<body>
+
+<body id="main">
     <header>
-        <section id="header"></section>
+        <my-header></my-header>
     </header>
-    <div class="content">
-        <section id="siderbar"></section>
-        <section id="content"></section>
+    <div class="container main">
+        <div class="row">
+            <div class="col-sm-2 col-md-2 col-lg-2 hidden-xs hidden-sm siderbar">
+                <my-siderbar></my-siderbar>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10">
+                <!-- 路由视图 -->
+                <router-view></router-view>
+            </div>
+        </div>
     </div>
-    <footer>
-        <section id="footer"></section>
-    </footer>
     <script src="../resources/js/require.js"></script>
     <script src="../resources/js/require.config.js"></script>
-    <script src="../resources/js/pages/index.js"></script>
+    <script src="../resources/js/seller.js"></script>
 </body>
-</html>
 
+</html>

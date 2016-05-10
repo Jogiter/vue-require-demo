@@ -1,0 +1,43 @@
+/*content区域表格*/
+.list-control {
+    padding: 10px 0;
+}
+.pd-0-10 {
+    padding: 0 10px;
+}
+table,
+tr,
+th,
+td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+    text-align: center;
+    vertical-align: middle;
+}
+table th:not(:last-child)::after{
+    content: "\f0dc";
+    float: right;
+    font-family: fontawesome;
+}
+table th.up::after{
+    content: "\f0de";
+    float: right;
+    font-family: fontawesome;
+}
+table th.down::after{
+    content: "\f0dd";
+    float: right;
+    font-family: fontawesome;
+}
+.table-list {
+    // background: #A4AEB9;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px 6px 0 0;
+    border-bottom: 2px solid #93999e;
+}
+.link {
+    color: #3f76b4;
+    font-size: 12px;
+    line-height: 25px;
+}

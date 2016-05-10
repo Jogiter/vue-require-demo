@@ -1,4 +1,5 @@
-#boot {
-    background-image: url(../images/bg.png);
-    color: #42b983;
+#main {
+    overflow-y: scroll;
+    background-color: #f6f7f8;
+    color: #2d3242;
 }

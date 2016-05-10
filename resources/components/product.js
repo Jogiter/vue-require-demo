@@ -1,24 +1,22 @@
 define(['Vue'], function(Vue) {
     var temp, index;
-    temp = '<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">\
-        <!-- 数据填充模板 -->\
-        <table class="table table-hover" id="boot">\
-            <thead>\
-                <tr>\
-                    <th v-for="title in titles">{{title}}</th>\
-                </tr>\
-            </thead>\
-            <tbody>\
-                <tr v-for="item in items">\
-                    <td v-for="i in item">{{i}}</td>\
-                </tr>\
-            </tbody>\
-        </table>\
-        <ul class="pager">\
-            <li><a href="#">Previous</a></li>\
-            <li><a href="#">Next</a></li>\
-        </ul>\
-    </div>';
+    temp = '<!-- 数据填充模板 -->\
+            <table class="table table-hover" id="boot">\
+                <thead>\
+                    <tr>\
+                        <th v-for="title in titles">{{title}}</th>\
+                    </tr>\
+                </thead>\
+                <tbody>\
+                    <tr v-for="item in items">\
+                        <td v-for="i in item">{{i}}</td>\
+                    </tr>\
+                </tbody>\
+            </table>\
+            <ul class="pager">\
+                <li><a href="#">Previous</a></li>\
+                <li><a href="#">Next</a></li>\
+            </ul>';
 
     index = Vue.extend({
         template: temp,

@@ -1,0 +1,37 @@
+.bgc2d3242 {
+    background-color: #2d3242;
+}
+.bgc2d3242 a {
+    color: #a2acb9;
+}
+.bgc2d3242 a:not(.navbar-brand):hover,
+.bgc2d3242 a:not(.navbar-brand):focus,
+.bgc2d3242 a:not(.navbar-brand):active{
+    color: #f64f50;
+    background-color: #7C7C7F !important;
+}
+.seller-login a>span {
+    margin-left: 5px;
+}
+@media screen and (min-width:767px) {
+    .seller-login li:nth-last-child(1)::after{
+        position: absolute;
+        content: '';
+        width: 2px;
+        height: 30px;
+        background-color: #ccc;
+        right: 0;
+        top: 10px;
+    }
+}
+@media screen and (max-width:767px) {
+    .seller-login li:nth-last-child(1)::after{
+        position: absolute;
+        content: '';
+        width: 96%;
+        left: 2%;
+        height: 2px;
+        background-color: #ccc;
+        right: 0;
+    }
+}

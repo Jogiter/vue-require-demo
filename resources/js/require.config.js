@@ -6,6 +6,7 @@ require.config({
         VueRouter: 'js/plugins/vue/vue-router.0.7.11',
         VueResource: 'js/plugins/vue/vue-resource.0.7.0',
         bootstrap: 'js/plugins/bootstrap/js/bootstrap',
+        pager: 'js/plugins/bootstrap-table/dist/bootstrap-table.min',
         magnific: 'js/plugins/magnific/jquery.magnific-popup.min'
         // amaze: ie == 8 ? 'third/amazeui.legacy.min' : 'third/amazeui.min',
         // doT: 'third/doT.min',
@@ -42,9 +43,10 @@ require.config({
             deps: ['jquery', 'css!js/plugins/bootstrap/css/bootstrap'],
             exports: '$.fn.popover'
         },
+        pager: ['css!js/plugins/bootstrap-table/dist/bootstrap-table.min'],
         product: ['css!../css/product'],
         magnific: ['jquery', 'css!js/plugins/magnific/magnific-popup.min']
     },
-    enforceDefine: true,
+    // enforceDefine: true,
     urlArgs: 'v=' + new Date().getTime()
 });
