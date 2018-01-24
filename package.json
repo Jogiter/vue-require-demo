@@ -22,7 +22,7 @@
     "gulp-watch": "^4.3.5",
     "gulp-webpack": "^1.5.0",
     "gulp.spritesmith": "^6.2.1",
-    "jquery": "^2.2.3",
+    "jquery": "^3.0.0",
     "jshint": "^2.9.2"
   }
 }
